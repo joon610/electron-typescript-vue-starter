@@ -1,4 +1,4 @@
-# vitual-server
+# Vue(typescript) electron starter 
 
 ## Project setup
 ```
