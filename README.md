@@ -7,23 +7,26 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn run serve
+yarn dev
 ```
 
 ### Compiles and minifies for production
 ```
-yarn run build
+yarn build  
 ```
 
-### Run your tests
+### Compiles and hot-reloads for development(electront)
 ```
-yarn run test
+dev:electron
 ```
 
-### Lints and fixes files
+### Compiles and minifies for production(electront)
 ```
-yarn run lint
+build:electron
 ```
+
+
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
