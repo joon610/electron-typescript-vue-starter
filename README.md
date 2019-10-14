@@ -1,4 +1,5 @@
 # Vue(typescript) electron starter 
+vue , typescript, vuetify
 
 ## Project setup
 ```
@@ -13,11 +14,6 @@ yarn dev
 ### Compiles and minifies for production
 ```
 yarn build  
-```
-
-### Compiles and hot-reloads for development(electront)
-```
-dev:electron
 ```
 
 ### Compiles and minifies for production(electront)
