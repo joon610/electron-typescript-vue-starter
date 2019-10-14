@@ -1,5 +1,5 @@
 # Vue(typescript) electron starter 
-vue , typescript, vuetify
+vue , typescript, vuetify, electron
 
 ## Project setup
 ```
