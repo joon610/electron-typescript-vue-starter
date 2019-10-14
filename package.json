@@ -3,13 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build:electron": "vue-cli-service electron:build",
-    "dev:electron": "vue-cli-service electron:serve",
-    "postinstall": "electron-builder install-app-deps",
-    "postuninstall": "electron-builder install-app-deps"
+    "dev:vue": "vue-cli-service serve",
+    "dev": "vue-cli-service electron:serve",
+    "build:electron": "yarn vue-cli-service electron:build",
+    "build:all": "yarn vue-cli-service electron:build --mac --win"
   },
   "dependencies": {
     "core-js": "^2.6.5",
